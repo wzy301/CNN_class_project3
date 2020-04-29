@@ -225,7 +225,7 @@ if [ $stage -le 6 ]; then
   exit 0
 fi
 
-:<<!
+
 # !!!note that we also need to apply the same pre-processing to decode data!!!
 if [ $stage -le 7 ]; then
   # This script applies CMVN and removes nonspeech frames.  Note that this is somewhat
@@ -320,4 +320,4 @@ if [ $stage -le 12 ]; then
     # minDCF(p-target=0.01): 0.3129
     # minDCF(p-target=0.001): 0.4291
 fi
-!
+
